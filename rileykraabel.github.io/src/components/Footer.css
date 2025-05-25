@@ -1,0 +1,20 @@
+.footer-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkturquoise;
+    width: 99%;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.footer-header {
+    align-items: center;
+    width: 85%;
+    background-color: turquoise;
+    border: 0px;
+    border-radius: 5px;
+}

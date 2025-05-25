@@ -1,7 +1,11 @@
 import './App.css';
 
+import About from './components/About';
+import Contact from './components/Contact';
 import ContentBanner from './components/ContentBanner';
+import Footer from './components/Footer';
 import NavBanner from './components/NavBanner';
+import Projects from './components/Projects';
 
 function Header() {
   return (
@@ -13,7 +17,12 @@ function Header() {
 
 function Main() {
   return (
-    <h1>Content will go here</h1>
+    <div className="main-content">
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 
