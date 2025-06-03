@@ -3,7 +3,7 @@ import './Project.css';
 
 function Project({ title, description, image, link }) {
     return (
-        <div className="project">
+        <div className="project-main">
             <img src={image} alt={title} className="project-image" />
             <div className="project-info">
                 <h2>{title}</h2>

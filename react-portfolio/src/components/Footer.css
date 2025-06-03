@@ -2,19 +2,93 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     background-color: darkturquoise;
+    gap: 20px;
     width: 99%;
     margin: 10px;
     padding: 20px;
     box-sizing: border-box;
-    border: 0px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .footer-header {
     align-items: center;
     width: 85%;
     background-color: turquoise;
-    border: 0px;
+    padding: 1rem;
     border-radius: 5px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 85%;
+}
+
+.footer-links>a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: red;
+}
+
+.footer-section-titles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-section-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.scroll-top-arrow {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    animation: bounce 2s infinite;
+    margin-top: 20px;
+    transition: color 0.3s ease;
+}
+
+.scroll-top-arrow:hover {
+    color: #555;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
 }

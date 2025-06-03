@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     background-color: orange;
     gap: 20px;
-
     width: 99%;
     margin: 10px;
     padding: 40px 20px;
@@ -13,18 +13,11 @@
 }
 
 .contact-header {
+    align-items: center;
     width: 85%;
     background-color: #fff8dc;
-    /* subtle cream */
-    text-align: center;
     padding: 1rem;
     border-radius: 8px;
-}
-
-.contact-header h1 {
-    margin: 0;
-    font-size: 2rem;
-    color: #333;
 }
 
 .contact-content {
@@ -90,7 +83,6 @@
     font-weight: 600;
     color: #333;
     text-align: left;
-    /* align labels with inputs */
     padding-left: 4px;
 }
 

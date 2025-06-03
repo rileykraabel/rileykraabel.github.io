@@ -15,7 +15,7 @@ function About() {
                 </div>
                 <div className="about-right">
                     <p>
-                        I just recently graduated from the University of Utah with a Bachelors of Science in Software Development (May 2025).
+                        I just recently graduated from the University of Utah with a Bachelor of Science in Software Development (May 2025).
                         I am excited and passionate about web and full-stack development, designing functional and intuitive user interfaces, and database management.
                         I love to learn, and hope to apply the skills I learned in undergrad to create new, exciting systems that make life easier for users.
                     </p>

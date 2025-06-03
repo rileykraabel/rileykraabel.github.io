@@ -4,22 +4,20 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-
     background-color: blueviolet;
+    gap: 20px;
     width: 99%;
     margin: 10px;
     padding: 2rem;
     box-sizing: border-box;
-    border: 0px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .projects-header {
     align-items: center;
     width: 85%;
     background-color: purple;
-    border: 0px;
+    padding: 1rem;
     border-radius: 5px;
 }
 
@@ -28,5 +26,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    padding: 2rem;
     gap: 20px;
 }

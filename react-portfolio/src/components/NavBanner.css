@@ -4,8 +4,6 @@
     align-items: center;
     justify-content: space-between;
     background-color: #ee55cc;
-    color: #fff;
-
     width: 99%;
     margin: 10px;
     padding: 20px;
@@ -38,4 +36,8 @@
 .navbar-right .nav-links a {
     color: pink;
     text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: red;
 }
