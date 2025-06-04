@@ -1,0 +1,33 @@
+.projects-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #800080;
+    gap: 20px;
+    width: 99%;
+    margin: 10px;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.projects-header {
+    align-items: center;
+    width: 85%;
+    background-color: #9c009c;
+    padding: 1rem;
+    border-radius: 5px;
+    font-family: "Barrio", system-ui;
+    font-size: 1.5rem;
+}
+
+.projects-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    gap: 20px;
+}
