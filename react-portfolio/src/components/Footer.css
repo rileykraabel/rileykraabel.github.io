@@ -12,14 +12,6 @@
     border-radius: 8px;
 }
 
-.footer-header {
-    align-items: center;
-    width: 85%;
-    background-color: turquoise;
-    padding: 1rem;
-    border-radius: 5px;
-}
-
 .footer-content {
     display: flex;
     flex-direction: row;
@@ -63,7 +55,7 @@
 }
 
 .footer-section-titles {
-  font-family: "Barrio", system-ui;
+    font-family: "Barrio", system-ui;
     font-size: 1.5rem;
     display: flex;
     flex-direction: row;

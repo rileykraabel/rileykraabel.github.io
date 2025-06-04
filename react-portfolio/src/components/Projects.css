@@ -19,6 +19,8 @@
     background-color: purple;
     padding: 1rem;
     border-radius: 5px;
+    font-family: "Barrio", system-ui;
+    font-size: 1.5rem;
 }
 
 .projects-content {

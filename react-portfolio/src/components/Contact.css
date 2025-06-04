@@ -18,6 +18,8 @@
     background-color: #fff8dc;
     padding: 1rem;
     border-radius: 8px;
+    font-family: "Barrio", system-ui;
+    font-size: 1.5rem;
 }
 
 .contact-content {
