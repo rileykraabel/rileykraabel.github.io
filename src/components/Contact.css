@@ -1,0 +1,44 @@
+.contact-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #029ee0;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%2303b2fc' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
+
+    gap: 20px;
+    width: 99%;
+    margin: 10px;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    font-family: "Chivo Mono", monospace; /* Or your site’s main font */
+}
+
+.contact-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    background-color: #03b2fc;
+    padding: 1rem;
+    border-radius: 8px;
+    font-family: "Barrio", system-ui;
+    font-size: 1.5rem;
+}
+
+.contact-content {
+    width: 100%;
+    max-width: 85%;
+    background-color: #a5daf0;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-text p {
+    color: black;
+}
+

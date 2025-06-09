@@ -1,0 +1,88 @@
+.projects-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6a006a;
+
+    background-color: #6a006a;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%238a018a' fill-opacity='0.18'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+    gap: 20px;
+    width: 99%;
+    margin: 10px;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.projects-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    background-color: #9c009c;
+    padding: 1rem;
+    border-radius: 5px;
+    font-family: "Barrio", system-ui;
+    font-size: 1.5rem;
+}
+
+.individual-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 40px;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+/* Each project block */
+.project-section {
+    display: flex;
+    flex-direction: row;
+    background-color: #9c009c;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 90%;
+    gap: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Alternate layout for variety */
+.project-section:nth-child(even) {
+  flex-direction: row-reverse;
+  background-color: #800080;
+}
+
+/* Image styling */
+.project-image img {
+  max-width: 800px;
+  max-height: 450px;
+  border-radius: 8px;
+}
+
+/* Text content */
+.project-info {
+  width: 300px;
+  max-height: 450px;
+  color: white;
+}
+
+.project-info h2 {
+  font-family: "Barrio", system-ui;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.project-info a {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #ffddee;
+  font-weight: bold;
+}
+
+.project-info p {
+    color: black;
+}
