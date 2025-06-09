@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Chivo Mono', monospace;
+  padding: 10px;
+}
+
 .App {
   text-align: center;
+  width: 100%;
 }
 
 .App-logo {
@@ -14,7 +22,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +35,3 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
