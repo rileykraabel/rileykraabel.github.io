@@ -30,9 +30,9 @@ function Footer() {
                     <div className="footer-center-right">
                         <div className="footer-section">
                             <h2 className="footer-section-titles">Explore</h2>
-                            <a href="/about">About</a>
-                            <a href="/projects">Projects</a>
-                            <a href="/contact">Contact</a>
+                            <Link to="/about">About</Link>
+                            <Link to="/projects">Projects</Link>
+                            <Link to="/contact">Contact</Link>
                         </div>
                     </div>
 
