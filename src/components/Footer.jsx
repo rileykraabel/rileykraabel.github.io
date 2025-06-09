@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import resume from '../assets/Resume.pdf';
 import texture from '../assets/texture.png';
+import logo from '../assets/logo.png';
 
 import './Footer.css';
 
@@ -14,6 +15,7 @@ function Footer() {
 
                     <div className="footer-left">
                         <p>&copy; rileykraabel.github.io </p>
+                        <img src={logo} alt="logo" width="120" height="120"></img>
                     </div>
 
                     <div className="footer-center-left">
