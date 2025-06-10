@@ -58,6 +58,12 @@
     color: pink;
 }
 
+.navbar-top a.active {
+    position: relative;
+    color: pink;
+    font-weight: bold;
+}
+
 /* Highlight the current nav link with an underline */
 .nav-links a.active {
     position: relative;
@@ -72,6 +78,7 @@
     left: 0;
     width: 100%;
     height: 3px;
-    background-color: pink; /* or any other highlight color */
+    background-color: pink;
+    /* or any other highlight color */
     border-radius: 2px;
 }

@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 import resume from '../assets/Resume.pdf';
-import texture from '../assets/texture.png';
 import logo from '../assets/logo.png';
 
 import './Footer.css';

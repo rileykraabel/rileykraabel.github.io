@@ -2,7 +2,6 @@ import React from 'react';
 import './NavBanner.css';
 
 import { Link, useLocation } from 'react-router-dom';
-import texture from '../assets/texture.png';
 
 function NavBanner() {
     const location = useLocation();
@@ -11,11 +10,10 @@ function NavBanner() {
     return (
         <nav className="navbar">
             <div className="navbar-top">
-                <Link to="/">RILEY KRAABEL</Link>
+                <Link to="/" className={isActive("/") ? "nav-link active" : "nav-link"}>RK</Link>
             </div>
             <div className="navbar-bottom">
                 <ul className="nav-links">
-                    <li><Link to="/" className={isActive("/") ? "nav-link active" : "nav-link"}>Home</Link></li>
                     <li><Link to="/about" className={isActive("/about") ? "nav-link active" : "nav-link"}>About</Link></li>
                     <li><Link to="/projects" className={isActive("/projects") ? "nav-link active" : "nav-link"}>Projects</Link></li>
                     <li><Link to="/contact" className={isActive("/contact") ? "nav-link active" : "nav-link"}>Contact</Link></li>

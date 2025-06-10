@@ -30,7 +30,9 @@ function Contact({ title, link }) {
                 <h1>CONTACT</h1>
             </div>
             <div className="contact-text">
-                <p>Have any questions or want to work together? Send me a message and I'll get back to you as soon as possible :)</p>
+                <h3 className="overview">Have any questions or want to work together? </h3>
+                <p>Send me a quick email and I'll get back to you as soon as possible :)</p>
+                <p>In the meantime, check out some of my work!</p>
             </div>
             <div className="contact-content">
                 <div className="contact-bubbles">

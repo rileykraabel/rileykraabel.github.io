@@ -29,16 +29,98 @@
     font-size: 1.5rem;
 }
 
-.contact-content {
-    width: 100%;
-    max-width: 85%;
-    background-color: #a5daf0;
-    border-radius: 8px;
-    padding: 2rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
 .contact-text p {
     color: black;
+    font-size: 20px;
 }
 
+.contact-bubbles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.contact-bubble {
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-family: "Chivo Mono", monospace;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.contact-bubble a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bubble-icon {
+  font-size: 1.2rem;
+}
+
+/* Different colors for each contact type */
+.bubble-email {
+  background: #d238b1;
+}
+.bubble-email:hover {
+  background: #f7a8b7;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
+}
+
+.bubble-linkedin {
+  background: #d238b1;
+}
+.bubble-linkedin:hover {
+  background: #f7a8b7;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 119, 181, 0.4);
+}
+
+.bubble-github {
+  background: #d238b1
+}
+.bubble-github:hover {
+  background: #f7a8b7;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(51, 51, 51, 0.4);
+}
+
+.bubble-resume {
+  background: #d238b1;
+}
+.bubble-resume:hover {
+  background: #f7a8b7;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(76, 175, 80, 0.4);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .contact-bubbles {
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+  
+  .contact-bubble {
+    padding: 0.8rem 1.5rem;
+  }
+  
+  .contact-bubble a {
+    font-size: 1rem;
+  }
+  
+  .bubble-icon {
+    font-size: 1.1rem;
+  }
+}
