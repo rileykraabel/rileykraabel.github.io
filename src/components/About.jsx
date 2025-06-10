@@ -8,7 +8,7 @@ function About() {
     return (
         <div className="about-main">
             <div className="about-header">
-                <h1>About Me!</h1>
+                <h1>ABOUT ME!</h1>
             </div>
             <div className="about-content">
                 <div className="about-left">
@@ -22,7 +22,7 @@ function About() {
                     <br /><br />
                         I love to learn, and hope to apply the skills I learned in undergrad to create new, exciting systems that make life easier for users.
                     <br /><br />
-                        When not on my computer, I enjoy reading, traveling, and spending time outdoors! I have been fortunate enough to spend the past few years
+                        When I'm not programming, I'm either reading, traveling, or spending time outdoors! I have been fortunate enough to spend the past few years
                         of my life exploring new places and trying new things, and hope to continue this in the years to come.
                     </p>
                 </div>

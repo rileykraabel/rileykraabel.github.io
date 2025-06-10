@@ -14,7 +14,7 @@
     box-sizing: border-box;
     border-radius: 8px;
 
-    font-family: "Chivo Mono", monospace; /* Or your site’s main font */
+    font-family: "Gabarito", sans-serif;
 }
 
 .contact-header {
@@ -25,7 +25,7 @@
     background-color: #03b2fc;
     padding: 1rem;
     border-radius: 8px;
-    font-family: "Barrio", system-ui;
+    font-family: "Gabarito", sans-serif;
     font-size: 1.5rem;
 }
 

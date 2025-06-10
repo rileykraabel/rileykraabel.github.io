@@ -14,13 +14,15 @@ function Footer() {
                 <div className="footer-links">
 
                     <div className="footer-left">
-                        <p>&copy; rileykraabel.github.io </p>
+                        <div className="footer-section-titles">
+                            <p>&copy; rileykraabel.github.io </p>
+                        </div>
                         <img src={logo} alt="logo" width="120" height="120"></img>
                     </div>
 
                     <div className="footer-center-left">
                         <div className="footer-section">
-                            <h2 className="footer-section-titles">Projects</h2>
+                            <h2 className="footer-section-titles">PROJECTS</h2>
                             <Link to="/projects/#portfolio">Portfolio</Link>
                             <Link to="/projects/#apr">Air Power Racing</Link>
                             <Link to="/projects/#canvas-dupe">Canvas/LMS Dupe</Link>
@@ -31,7 +33,7 @@ function Footer() {
 
                     <div className="footer-center-right">
                         <div className="footer-section">
-                            <h2 className="footer-section-titles">Explore</h2>
+                            <h2 className="footer-section-titles">EXPLORE</h2>
                             <Link to="/about">About</Link>
                             <Link to="/projects">Projects</Link>
                             <Link to="/contact">Contact</Link>
@@ -40,7 +42,7 @@ function Footer() {
 
                     <div className="footer-right">
                         <div className="footer-section">
-                            <h2 className="footer-section-titles">Contact</h2>
+                            <h2 className="footer-section-titles">CONTACT</h2>
                             <a href="mailto:rileykraabel@gmail.com?subject=Let's%20Connect!">Email</a>
                             <a href="https://www.linkedin.com/in/rileykraabel" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                             <a href="https://www.github.com/rileykraabel" target="_blank" rel="noopener noreferrer">GitHub</a>

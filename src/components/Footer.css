@@ -39,17 +39,17 @@
 }
 
 .footer-section a:hover {
-    color: #ee55cc;
+    color: #f7a8b7;
 }
 
 /* style the individual sections in the links parent */
 .footer-left {
     text-align: left;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 .footer-left p {
-    color: #c460ae;
+    color: #f7a8b7;
 }
 
 .footer-center {
@@ -61,7 +61,7 @@
 }
 
 .footer-section-titles {
-    font-family: "Barrio", system-ui;
+    font-family: "Gabarito", sans-serif;
     font-size: 1.5rem;
     display: flex;
     flex-direction: row;
@@ -93,7 +93,8 @@
 }
 
 p {
-    color: #c460ae;
+    color: #f7a8b7;
+    font-size: 15px;
 }
 
 @keyframes bounce {

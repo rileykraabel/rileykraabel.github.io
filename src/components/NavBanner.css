@@ -1,6 +1,6 @@
 .navbar {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
 
@@ -24,9 +24,9 @@
 
     font-size: 2.5rem;
     font-weight: bold;
-    color: #1a1a1a;
+    color: pink;
     text-decoration: none;
-    font-family: "Barrio", system-ui;
+    font-family: "Gabarito", sans-serif;
 }
 
 .navbar-bottom .nav-links {
@@ -42,7 +42,7 @@
 }
 
 .navbar-bottom .nav-links a {
-    color: pink;
+    color: #f7a8b7;
     text-decoration: none;
 }
 
@@ -55,5 +55,23 @@
 }
 
 .nav-links a:hover {
-    color: red;
+    color: pink;
+}
+
+/* Highlight the current nav link with an underline */
+.nav-links a.active {
+    position: relative;
+    color: pink;
+    font-weight: bold;
+}
+
+.nav-links a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: pink; /* or any other highlight color */
+    border-radius: 2px;
 }
