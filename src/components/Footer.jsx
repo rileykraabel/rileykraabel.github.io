@@ -16,7 +16,6 @@ function Footer() {
     }, []);
 
     return isMobile ? <MobileFooter /> : <DesktopFooter />;
-
 }
 
 export default Footer;
