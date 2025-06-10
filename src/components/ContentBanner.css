@@ -1,5 +1,5 @@
 .fullscreen-panel {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-repeat: repeat;
   background-size: 300px;
@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 99%;
-  margin: 10px;
+  margin: 10px 0px;
   padding: 20px 40px;
   box-sizing: border-box;
   border-radius: 8px;
@@ -21,7 +21,7 @@
 
 .squiggly-overlay {
   position: absolute;
-  top: 8%;
+  top: 4%;
   left: 0;
   width: 100%;
   height: 100%;
@@ -37,7 +37,7 @@
 .top-section h1 {
   color: black;
   font-size: 72px;
-  padding: 10px 50px;
+  padding: 0px 30px;
   display: flex;
   justify-content: left;
   margin: 10px;
@@ -47,8 +47,9 @@
   color: black;
   font-size: 30px;
   align-items: center;
-  width: 75%;
-  margin: 50px 200px;
+  width: 85%;
+  margin: 30px 150px;
+  line-height: 1.5;
 }
 
 .links {
