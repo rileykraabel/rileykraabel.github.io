@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b05438d0.css",
-    "main.js": "/static/js/main.e727c756.js",
+    "main.css": "/static/css/main.5e144270.css",
+    "main.js": "/static/js/main.06b945ad.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/mountain.jpg": "/static/media/mountain.d8559d67683fb05fbe74.jpg",
     "static/media/airpowerracing-site.png": "/static/media/airpowerracing-site.2e58f0e15ddaea0443ab.png",
@@ -12,12 +12,12 @@
     "static/media/logo.png": "/static/media/logo.82a860fb0e06a48f23bc.png",
     "static/media/welcome-1.png": "/static/media/welcome-1.f3e13105a834e96a32d6.png",
     "index.html": "/index.html",
-    "main.b05438d0.css.map": "/static/css/main.b05438d0.css.map",
-    "main.e727c756.js.map": "/static/js/main.e727c756.js.map",
+    "main.5e144270.css.map": "/static/css/main.5e144270.css.map",
+    "main.06b945ad.js.map": "/static/js/main.06b945ad.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b05438d0.css",
-    "static/js/main.e727c756.js"
+    "static/css/main.5e144270.css",
+    "static/js/main.06b945ad.js"
   ]
 }
