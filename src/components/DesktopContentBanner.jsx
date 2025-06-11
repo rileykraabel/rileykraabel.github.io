@@ -11,7 +11,7 @@ import './ContentBanner.css';
 // function for the desktop-specific content banner element //
 function DesktopContentBanner() {
   return (
-    <div className="fullscreen-panel">
+    <>
       <div className="top-section">
         <h1>RILEY KRAABEL</h1>
         <p>I'm a new-grad full-stack developer with a passion for <i>web-development</i>, <i>creativity</i>, and <i>collaboration</i>. Open to new opportunities and starting my professional career! </p>
@@ -25,7 +25,7 @@ function DesktopContentBanner() {
         </div>
         <p>CHICAGO, IL</p>
       </div>
-    </div>
+    </>
   );
 }
 
