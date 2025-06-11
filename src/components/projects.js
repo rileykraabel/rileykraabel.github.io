@@ -13,7 +13,7 @@ const projects = [
   {
     title: 'PORTFOLIO WEBSITE',
     dates: 'June 2025',
-    description: "You're already here! My personal portfolio site, built using React and CSS...",
+    description: "You're already here! My personal portfolio site, built using React and CSS, and deployed to GitHub Pages using Git. I wanted to incorporate more of my own personal touch into this project, and hope you enjoy it!",
     image: project1Img,
     link: 'https://www.rileykraabel.github.io/',
     id: 'portfolio',
@@ -21,7 +21,7 @@ const projects = [
   {
     title: 'AIR POWER RACING',
     dates: 'Planning: Fall 2024 Implementation: Spring 2025',
-    description: 'My capstone project; a custom site built using Bubble.io...',
+    description: 'My capstone project; a custom site built using Bubble.io for a local Salt Lake City company, Air Power Racing. I worked on the database implementation along with front to back end integration. This project was created with a team of 3 other students.',
     image: airpowerracing,
     link: 'https://www.airpowerracing.com',
     id: 'apr',
@@ -29,7 +29,7 @@ const projects = [
   {
     title: 'CHAT APPLICATION',
     dates: 'Spring 2024',
-    description: 'A full-stack chat app built with React, Swagger, and FastAPI...',
+    description: 'My second web programming course required us to create a custom, full-stack chat application using React, Swagger, and Python FastAPI. Users are able to send/receive messages from other authenticated users, and manage chat features as an admin.',
     image: webdev2,
     link: 'https://github.com/rileykraabel/chat-app-project',
     id: 'chat-app',
@@ -37,7 +37,7 @@ const projects = [
   {
     title: 'CUSTOM LMS DATABASE',
     dates: 'Spring 2024',
-    description: 'Relational DB with 10+ tables, connected to a frontend with C# + LINQ...',
+    description: 'or my Database Systems course, me and a partner designed and implemented a relational database system consisting of 10+ interconnected tables. From there, we connected the MySQL database to a simple, course-provided frontend application using C#, LINQ, and .NET Core.',
     image: dbsystems,
     link: 'https://github.com/rileykraabel/custom-db',
     id: 'custom-db',
@@ -45,7 +45,7 @@ const projects = [
   {
     title: 'CANVAS / LMS DUPE',
     dates: 'Fall 2023',
-    description: 'A simplified LMS built with Django and HTML/CSS for practice...',
+    description: 'My introductory web programming course involved creating a Canvas "dupe" LMS by using a Django backend, and using HTML / CSS for front-end styling. The project was mainly to practice using basic elements, and included functionalities such as grading assignments, role-based management, and submissions.',
     image: webdev1,
     link: 'https://github.com/rileykraabel/lms-app',
     id: 'canvas-dupe',

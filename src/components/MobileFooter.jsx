@@ -27,9 +27,10 @@ function MobileFooter() {
                     <div className="footer-middle">
                         <div className="footer-section-mobile">
                             <h2 className="footer-mobile-titles">EXPLORE</h2>
-                            <Link to="/about">About</Link>
-                            <Link to="/projects">Projects</Link>
-                            <Link to="/contact">Contact</Link>
+
+                            <Link to="/about" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>About</Link>
+                            <Link to="/projects" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Projects</Link>
+                            <Link to="/contact" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Contact</Link>
                         </div>
                     </div>
 
