@@ -1,9 +1,15 @@
-import React, { useState } from 'react';
+/* Author: Riley Kraabel 
+   Date: June 10, 2025 
+   All Rights Reserved */
+
+import React from 'react';
 
 import resume from '../assets/Resume.pdf';
 import ContactBubble from './ContactBubble';
+
 import './Contact.css';
 
+// define the specific links to display //
 const links = [
     {
         title: "Email",
@@ -23,6 +29,7 @@ const links = [
     }
 ];
 
+// function for the reusable contact element //
 function Contact({ title, link }) {
     return (
         <div className="contact-main">

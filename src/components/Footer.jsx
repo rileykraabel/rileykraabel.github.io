@@ -1,11 +1,15 @@
+/* Author: Riley Kraabel 
+   Date: June 10, 2025 
+   All Rights Reserved */
+
 import { React, useState, useEffect } from 'react';
-import { Link } from "react-router-dom";
 
 import DesktopFooter from './DesktopFooter';
 import MobileFooter from './MobileFooter';
 
 import './Footer.css';
 
+// function for the general footer element (determines whether the user is on mobile or desktop) //
 function Footer() {
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 500);
 

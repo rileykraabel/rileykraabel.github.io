@@ -1,3 +1,7 @@
+/* Author: Riley Kraabel 
+   Date: June 10, 2025 
+   All Rights Reserved */
+
 import React from 'react';
 import { Link } from "react-router-dom";
 
@@ -6,6 +10,7 @@ import logo from '../assets/logo.png';
 
 import './Footer.css';
 
+// function for the mobile-specific footer element //
 function MobileFooter() {
     return (
         <div className="footer-mobile-main">

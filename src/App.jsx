@@ -1,13 +1,17 @@
-import './App.css';
-
+/* Author: Riley Kraabel 
+   Date: June 10, 2025 
+   All Rights Reserved */
+   
 import { HashRouter, Routes, Route } from "react-router-dom";
 
-import About from './components/About';
-import Contact from './components/Contact';
-import ContentBanner from './components/ContentBanner';
-import Footer from './components/Footer';
-import NavBanner from './components/NavBanner';
-import Projects from './components/Projects';
+import About from './components/About.jsx';
+import Contact from './components/Contact.jsx';
+import ContentBanner from './components/ContentBanner.jsx';
+import Footer from './components/Footer.jsx';
+import NavBanner from './components/NavBanner.jsx';
+import Projects from './components/Projects.jsx';
+
+import './App.css';
 
 // individual, re-used element for the header //
 function Header() {

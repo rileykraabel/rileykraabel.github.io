@@ -1,3 +1,8 @@
+/* Author: Riley Kraabel 
+   Date: June 10, 2025 
+   All Rights Reserved */
+
+/* css for the main 'footer' element (overall) */
 .footer-main {
     display: flex;
     flex-direction: column;
@@ -15,13 +20,13 @@
     border-radius: 8px;
 }
 
+/* css for the desktop-specific general content section */
 .footer-content {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
     width: 95%;
-    /* match the full width of the header element; built-in padding */
     padding: 10px 0px;
 }
 
@@ -60,6 +65,7 @@
     text-align: right;
 }
 
+/* style sections the same */
 .footer-section-titles {
     font-family: "Gabarito", sans-serif;
     font-size: 1.5rem;
@@ -70,6 +76,7 @@
     color: #dedede;
 }
 
+/* each individual section */
 .footer-section {
     display: flex;
     flex-direction: column;
@@ -77,6 +84,13 @@
     gap: 12px;
 }
 
+/* bottom paragraph */
+p {
+    color: #f7a8b7;
+    font-size: 15px;
+}
+
+/* bouncing arrow */
 .scroll-top-arrow {
     font-size: 2rem;
     background: none;
@@ -90,11 +104,6 @@
 
 .scroll-top-arrow:hover {
     color: #5c5c5c;
-}
-
-p {
-    color: #f7a8b7;
-    font-size: 15px;
 }
 
 @keyframes bounce {
@@ -135,14 +144,15 @@ p {
 }
 
 .footer-middle {
-    padding: 20px;
-}
-
-.footer-section-mobile {
     display: flex;
     flex-direction: column; 
     align-items: center;
     justify-content: center;
+    padding: 20px;
+}
+
+/* section styling (for mobile) */
+.footer-section-mobile {
     gap: 10px;
 }
 

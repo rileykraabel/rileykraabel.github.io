@@ -1,9 +1,14 @@
+/* Author: Riley Kraabel 
+   Date: June 10, 2025 
+   All Rights Reserved */
+
 import React from 'react';
 
 import mountainImage from '../assets/mountain.jpg';
 
 import './About.css';
 
+// function for the desktop-specific about page //
 function DesktopAbout() {
     return (
         <div className="about-main">

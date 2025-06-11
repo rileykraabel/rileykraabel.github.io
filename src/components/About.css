@@ -1,9 +1,15 @@
+/* Author: Riley Kraabel 
+   Date: June 10, 2025 
+   All Rights Reserved */
+
+/* css for the main 'about' element (overall) */
 .about-main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 
+    /* background pattern & color */
     background-color: #ef6f3f;
     background-image: url("data:image/svg+xml,%3Csvg width='70' height='70' viewBox='0 0 70 70' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ff956e' fill-opacity='0.17' fill-rule='evenodd'%3E%3Cpath d='M0 0h35v35H0V0zm5 5h25v25H5V5zm5 5h15v15H10V10zm5 5h5v5h-5v-5zM40 5h25v25H40V5zm5 5h15v15H45V10zm5 5h5v5h-5v-5zM70 35H35v35h35V35zm-5 5H40v25h25V40zm-5 5H45v15h15V45zm-5 5h-5v5h5v-5zM30 40H5v25h25V40zm-5 5H10v15h15V45zm-5 5h-5v5h5v-5z'/%3E%3C/g%3E%3C/svg%3E");
 
@@ -15,6 +21,7 @@
     border-radius: 8px;
 }
 
+/* header specific styling */
 .about-header {
     display: flex;
     align-items: center;
@@ -27,6 +34,7 @@
     font-size: 1.5rem;
 }
 
+/* overall section styling */
 .about-content {
     display: flex;
     flex-direction: row;
@@ -35,6 +43,7 @@
     padding: 2rem;
 }
 
+/* left-side specific (desktop - image) */
 .about-left {
     max-width: 25%;
     flex: 1;
@@ -48,6 +57,7 @@
     border-radius: 8px;
 }
 
+/* right-side specific (desktop - text / description) */
 .about-right {
     flex: 2;
     padding: 10px;
@@ -62,7 +72,7 @@
     font-size: 18px;
 }
 
-/* mobile content */
+/* mobile-specific content styling */
 .mobile-about-content {
     width: 85%;
 
@@ -71,6 +81,7 @@
     gap: 10px;
 }
 
+/* image styling (now at top) */
 .mobile-about-top {
     max-width: 100%;
 }
@@ -81,6 +92,7 @@
     border-radius: 8px;
 }
 
+/* text styling (now below image) */
 .mobile-about-bottom {
     flex: 2;
     padding: 10px;

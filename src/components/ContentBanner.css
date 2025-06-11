@@ -1,15 +1,22 @@
+/* Author: Riley Kraabel 
+   Date: June 10, 2025 
+   All Rights Reserved */
+
+/* css for the main 'content banner' element (overall) */
 .fullscreen-panel {
   height: 100%;
   width: 100vw;
-  background-repeat: repeat;
-  background-size: 300px;
-  background-position: center;
-  background-color: #5EBF83;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  /* background information */
+  background-color: #5EBF83;
+
+  /* font information */
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  
   width: 99%;
   margin: 10px 0px;
   padding: 20px 40px;
@@ -19,6 +26,7 @@
   overflow: hidden;
 }
 
+/* squiggly pattern styling */
 .squiggly-overlay {
   position: absolute;
   top: 4%;
@@ -29,6 +37,7 @@
   z-index: 1;
 }
 
+/* header information */
 .top-section {
   z-index: 2;
   position: relative;
@@ -52,6 +61,7 @@
   line-height: 1.5;
 }
 
+/* link section */
 .links {
   display: flex;
   flex-direction: row;
@@ -72,6 +82,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
+/* location information (small text section) */
 .bottom-section {
   z-index: 2;
   position: relative;
