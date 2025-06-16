@@ -29,9 +29,13 @@ function DesktopFooter() {
                             <h2 className="footer-section-titles">PROJECTS</h2>
                             <Link to="/projects/#portfolio">Portfolio</Link>
                             <Link to="/projects/#apr">Air Power Racing</Link>
-                            <Link to="/projects/#canvas-dupe">Canvas/LMS Dupe</Link>
                             <Link to="/projects/#chat-app">Chat Application</Link>
                             <Link to="/projects/#custom-db">Custom LMS Database</Link>
+                            <Link to="/projects/#mobile-app">Mobile Drawing Application</Link>
+                            <Link to="/projects/#canvas-dupe">Canvas / LMS Dupe</Link>
+                            <Link to="/projects/#cooking-game">2D Cooking Game</Link>
+                            <Link to="/projects/#agario-game">Agar.io Dupe Game</Link>
+                            <Link to="/projects/#spreadsheet">Spreadsheet</Link>
                         </div>
                     </div>
 
