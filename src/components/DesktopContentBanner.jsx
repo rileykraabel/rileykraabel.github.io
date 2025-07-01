@@ -14,7 +14,7 @@ function DesktopContentBanner() {
     <>
       <div className="top-section">
         <h1>RILEY KRAABEL</h1>
-        <p>I'm a new-grad full-stack developer with a passion for <i>web-development</i>, <i>creativity</i>, and <i>collaboration</i>. Open to new opportunities and starting my professional career! </p>
+        <p>Hello! I'm a new-grad full-stack developer with a passion for <i>web-development</i>, <i>creativity</i>, and <i>collaboration</i>. Open to new opportunities and starting my professional career! </p>
       </div>
       <div className="bottom-section">
         <div className="links">
