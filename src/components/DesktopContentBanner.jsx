@@ -4,8 +4,6 @@
 
 import React from 'react';
 
-import resume from '../assets/Resume.pdf';
-
 import './ContentBanner.css';
 
 // function for the desktop-specific content banner element //
@@ -18,7 +16,7 @@ function DesktopContentBanner() {
       </div>
       <div className="bottom-section">
         <div className="links">
-          <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
+          <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
           <a href="mailto:rileykraabel@gmail.com?subject=Let's%20Connect!">Email</a>
           <a href="https://www.linkedin.com/in/rileykraabel" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a href="https://www.github.com/rileykraabel" target="_blank" rel="noopener noreferrer">GitHub</a>

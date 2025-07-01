@@ -4,7 +4,6 @@
 
 import React from 'react';
 
-import resume from '../assets/Resume.pdf';
 import ContactBubble from './ContactBubble';
 
 import './Contact.css';
@@ -17,15 +16,15 @@ const links = [
     },
     {
         title: "LinkedIn",
-        link: "https://www.linkedin.com/in/rileykraabel",
+        link: "https://www.linkedin.com/in/rileykraabel"
     },
     {
         title: "GitHub",
-        link: "https://www.github.com/rileykraabel",
+        link: "https://www.github.com/rileykraabel"
     },
     {
         title: "Resume",
-        link: resume
+        link: "/Resume.pdf"
     }
 ];
 
