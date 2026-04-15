@@ -21,6 +21,10 @@
     border-radius: 8px;
 }
 
+.navbar-left {
+    flex-direction: row;
+}
+
 /* logo & left-side of the navbar element */
 .navbar-left a {
     display: flex;

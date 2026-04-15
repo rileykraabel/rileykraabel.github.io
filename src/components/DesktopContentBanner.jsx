@@ -12,16 +12,10 @@ function DesktopContentBanner() {
     <>
       <div className="top-section">
         <h1>RILEY KRAABEL</h1>
-        <p>Hello! I'm a new-grad full-stack developer with a passion for <i>web-development</i>, <i>creativity</i>, and <i>collaboration</i>. Open to new opportunities and starting my professional career! </p>
+        <p>Hello! I'm a new-grad full-stack developer with a passion for <i>web-development</i>, <i>creativity</i>, and <i>collaboration</i>. Currently looking forward to continuing my professional career :) </p>
       </div>
       <div className="bottom-section">
-        <div className="links">
-          <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-          <a href="mailto:rileykraabel@gmail.com?subject=Let's%20Connect!">Email</a>
-          <a href="https://www.linkedin.com/in/rileykraabel" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="https://www.github.com/rileykraabel" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </div>
-        <p>CHICAGO, IL</p>
+        <p>AUSTIN, TX</p>
       </div>
     </>
   );

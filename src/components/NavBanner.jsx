@@ -4,6 +4,7 @@
 
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import logo from '../assets/logo.png';
 
 import './NavBanner.css';
 
@@ -15,7 +16,9 @@ function NavBanner() {
     return (
         <nav className="navbar">
             <div className="navbar-left">
-                <Link to="/" className={isActive("/") ? "nav-link active" : "nav-link"}>RK</Link>
+                <Link to="/" className={isActive("/") ? "nav-link active" : "nav-link"}>
+                    <img src={logo} alt="logo" width="50" height="50"></img>
+                </Link>
             </div>
             <div className="navbar-right">
                 <ul className="nav-links">
